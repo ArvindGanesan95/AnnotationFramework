@@ -354,7 +354,8 @@
     - Go to the project root's directory. Open gradlew.bat file in command line
     - Execute the following command: gradlew clean build run
 
-![runOutput](../master/OutputImages/runOutput.jpeg)
+![buildOutput](https://bitbucket.org/arvind_ganesan/arvind_ganesan_hw2/raw/e8c1a7dcb237ec80bd85c93d31694a65ea6bf93d/OutputImages/buildOutput.JPG)
+![runOutput](https://bitbucket.org/arvind_ganesan/arvind_ganesan_hw2/raw/e8c1a7dcb237ec80bd85c93d31694a65ea6bf93d/OutputImages/runOutput.JPG)
 
 
 
