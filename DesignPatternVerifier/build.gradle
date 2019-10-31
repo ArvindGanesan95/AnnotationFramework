@@ -1,0 +1,33 @@
+apply plugin: 'idea'
+
+buildscript {
+  repositories {
+    mavenCentral()
+  }
+}
+
+allprojects {
+  repositories {
+    mavenCentral()
+  }
+}
+
+subprojects {
+
+  apply plugin: 'java'
+  group = "verifier.${rootProject.name}"
+
+  dependencies {
+    testImplementation 'junit:junit:4.12'
+    // https://mvnrepository.com/artifact/org.slf4j/slf4j-api
+    compile group: 'org.slf4j', name: 'slf4j-api', version: '1.7.25'
+
+    // https://mvnrepository.com/artifact/org.reflections/reflections
+    compile group: 'org.reflections', name: 'reflections', version: '0.9.10'
+    // https://mvnrepository.com/artifact/ch.qos.logback/logback-classic
+    compile group: 'ch.qos.logback', name: 'logback-classic', version: '1.2.1'
+
+    // https://mvnrepository.com/artifact/com.google.testing.compile/compile-testing
+    compile group: 'com.google.testing.compile', name: 'compile-testing', version: '0.15'
+  }
+}

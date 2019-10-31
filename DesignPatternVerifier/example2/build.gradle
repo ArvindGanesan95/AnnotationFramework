@@ -1,0 +1,8 @@
+apply plugin: 'application'
+apply plugin: 'java'
+mainClassName = 'COR_example2.ChainPatternDemo'
+
+dependencies {
+    compile project(':annotationprocessor')
+}
+

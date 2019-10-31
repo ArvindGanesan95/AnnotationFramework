@@ -1,0 +1,8 @@
+apply plugin: 'application'
+apply plugin: 'java'
+mainClassName = 'COR_example3.LeaveSystem'
+
+dependencies {
+    compile project(':annotationprocessor')
+}
+

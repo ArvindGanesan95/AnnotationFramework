@@ -1,0 +1,283 @@
+30-10-2019 20:27:46.088 [main] INFO  c.ExceptionDispatcher.main - Checking Annotations using reflections
+30-10-2019 20:27:46.279 [main] INFO  org.reflections.Reflections.scan - Reflections took 121 ms to scan 1 urls, producing 3 keys and 5 values 
+30-10-2019 20:27:46.300 [main] ERROR c.ExceptionDispatcher.main - [Exception thrown] 0
+30-10-2019 21:15:02.520 [main] INFO  c.ExceptionDispatcher.main - Checking Annotations using reflections
+30-10-2019 21:15:02.707 [main] INFO  org.reflections.Reflections.scan - Reflections took 115 ms to scan 1 urls, producing 3 keys and 5 values 
+30-10-2019 21:15:02.730 [main] ERROR c.ExceptionDispatcher.main - [Exception thrown] The class does not have a private field annotated as ChainHandler and of type of Class which is annotated as AbstractHandler
+30-10-2019 21:16:40.424 [main] INFO  c.ExceptionDispatcher.main - Checking Annotations using reflections
+30-10-2019 21:16:40.643 [main] INFO  org.reflections.Reflections.scan - Reflections took 130 ms to scan 1 urls, producing 3 keys and 5 values 
+30-10-2019 21:19:59.673 [main] INFO  c.ExceptionDispatcher.main - Checking Annotations using reflections
+30-10-2019 21:19:59.848 [main] INFO  org.reflections.Reflections.scan - Reflections took 107 ms to scan 1 urls, producing 3 keys and 5 values 
+30-10-2019 21:19:59.869 [main] ERROR c.ExceptionDispatcher.main - [Exception thrown] 0
+30-10-2019 21:20:28.556 [main] INFO  c.ExceptionDispatcher.main - Checking Annotations using reflections
+30-10-2019 21:20:28.740 [main] INFO  org.reflections.Reflections.scan - Reflections took 113 ms to scan 1 urls, producing 3 keys and 5 values 
+30-10-2019 21:20:28.765 [main] ERROR c.ExceptionDispatcher.main - [Exception thrown] 0
+30-10-2019 21:22:16.844 [main] INFO  c.ExceptionDispatcher.main - Checking Annotations using reflections
+30-10-2019 21:22:17.128 [main] INFO  org.reflections.Reflections.scan - Reflections took 174 ms to scan 1 urls, producing 3 keys and 5 values 
+30-10-2019 21:23:05.319 [main] ERROR c.ExceptionDispatcher.main - [Exception thrown] 0
+30-10-2019 21:23:31.192 [main] INFO  c.ExceptionDispatcher.main - Checking Annotations using reflections
+30-10-2019 21:23:31.351 [main] INFO  org.reflections.Reflections.scan - Reflections took 93 ms to scan 1 urls, producing 3 keys and 5 values 
+30-10-2019 21:23:31.372 [main] ERROR c.ExceptionDispatcher.main - [Exception thrown] 0
+30-10-2019 21:23:51.196 [main] INFO  c.ExceptionDispatcher.main - Checking Annotations using reflections
+30-10-2019 21:23:51.377 [main] INFO  org.reflections.Reflections.scan - Reflections took 110 ms to scan 1 urls, producing 3 keys and 5 values 
+30-10-2019 21:23:51.399 [main] ERROR c.ExceptionDispatcher.main - [Exception thrown] 0
+30-10-2019 21:30:03.088 [main] INFO  c.ExceptionDispatcher.main - Checking Annotations using reflections
+30-10-2019 21:30:03.265 [main] INFO  org.reflections.Reflections.scan - Reflections took 110 ms to scan 1 urls, producing 3 keys and 5 values 
+30-10-2019 21:30:03.288 [main] INFO  c.ExceptionDispatcher.main - Throwing exception request 1
+30-10-2019 21:30:03.288 [main] INFO  correctimplementation.RequestsMaker.makeRequest - Calling handleRequest method
+30-10-2019 21:30:03.289 [main] INFO  c.ExceptionDispatcher.main - Throwing exception request 2
+30-10-2019 21:30:03.289 [main] INFO  correctimplementation.RequestsMaker.makeRequest - Calling handleRequest method
+30-10-2019 21:30:03.289 [main] INFO  correctimplementation.RequestHandler.handleRequest - [Passing to next handler]
+30-10-2019 21:30:03.289 [main] INFO  correctimplementation.RequestHandler.handleRequest - [Passing to next handler]
+30-10-2019 21:30:03.290 [main] INFO  c.ExceptionDispatcher.main - Throwing exception request 3
+30-10-2019 21:30:03.290 [main] INFO  correctimplementation.RequestsMaker.makeRequest - Calling handleRequest method
+30-10-2019 21:30:03.290 [main] INFO  correctimplementation.RequestHandler.handleRequest - [Passing to next handler]
+30-10-2019 21:33:07.217 [main] INFO  c.ExceptionDispatcher.main - Checking Annotations using reflections
+30-10-2019 21:33:07.398 [main] INFO  org.reflections.Reflections.scan - Reflections took 107 ms to scan 1 urls, producing 3 keys and 5 values 
+30-10-2019 21:33:07.421 [main] INFO  c.ExceptionDispatcher.main - Throwing exception request 1
+30-10-2019 21:33:07.421 [main] INFO  correctimplementation.RequestsMaker.makeRequest - Calling handleRequest method
+30-10-2019 21:33:07.422 [main] INFO  c.ExceptionDispatcher.main - Throwing exception request 2
+30-10-2019 21:33:07.422 [main] INFO  correctimplementation.RequestsMaker.makeRequest - Calling handleRequest method
+30-10-2019 21:33:07.422 [main] INFO  correctimplementation.RequestHandler.handleRequest - [Passing to next handler]
+30-10-2019 21:33:07.422 [main] INFO  correctimplementation.RequestHandler.handleRequest - [Passing to next handler]
+30-10-2019 21:33:07.422 [main] INFO  c.ExceptionDispatcher.main - Throwing exception request 3
+30-10-2019 21:33:07.423 [main] INFO  correctimplementation.RequestsMaker.makeRequest - Calling handleRequest method
+30-10-2019 21:33:07.423 [main] INFO  correctimplementation.RequestHandler.handleRequest - [Passing to next handler]
+30-10-2019 21:33:21.719 [main] INFO  c.ExceptionDispatcher.main - Checking Annotations using reflections
+30-10-2019 21:33:21.903 [main] INFO  org.reflections.Reflections.scan - Reflections took 120 ms to scan 1 urls, producing 3 keys and 5 values 
+30-10-2019 21:33:21.924 [main] INFO  c.ExceptionDispatcher.main - Throwing exception request 1
+30-10-2019 21:33:21.924 [main] INFO  correctimplementation.RequestsMaker.makeRequest - Calling handleRequest method
+30-10-2019 21:33:21.925 [main] INFO  c.ExceptionDispatcher.main - Throwing exception request 2
+30-10-2019 21:33:21.925 [main] INFO  correctimplementation.RequestsMaker.makeRequest - Calling handleRequest method
+30-10-2019 21:33:21.925 [main] INFO  correctimplementation.RequestHandler.handleRequest - [Passing to next handler]
+30-10-2019 21:33:21.925 [main] INFO  correctimplementation.RequestHandler.handleRequest - [Passing to next handler]
+30-10-2019 21:33:21.925 [main] INFO  c.ExceptionDispatcher.main - Throwing exception request 3
+30-10-2019 21:33:21.926 [main] INFO  correctimplementation.RequestsMaker.makeRequest - Calling handleRequest method
+30-10-2019 21:33:21.926 [main] INFO  correctimplementation.RequestHandler.handleRequest - [Passing to next handler]
+30-10-2019 22:04:36.740 [main] INFO  c.ExceptionDispatcher.main - Checking Annotations using reflections
+30-10-2019 22:04:36.921 [main] INFO  org.reflections.Reflections.scan - Reflections took 115 ms to scan 1 urls, producing 3 keys and 5 values 
+30-10-2019 22:04:36.944 [main] INFO  c.ExceptionDispatcher.main - Throwing exception request 1
+30-10-2019 22:04:36.944 [main] INFO  correctimplementation.RequestsMaker.makeRequest - Calling handleRequest method
+30-10-2019 22:04:36.944 [main] INFO  c.ExceptionDispatcher.main - Throwing exception request 2
+30-10-2019 22:04:36.944 [main] INFO  correctimplementation.RequestsMaker.makeRequest - Calling handleRequest method
+30-10-2019 22:04:36.944 [main] INFO  correctimplementation.RequestHandler.handleRequest - [Passing to next handler]
+30-10-2019 22:04:36.944 [main] INFO  correctimplementation.RequestHandler.handleRequest - [Passing to next handler]
+30-10-2019 22:04:36.945 [main] INFO  c.ExceptionDispatcher.main - Throwing exception request 3
+30-10-2019 22:04:36.945 [main] INFO  correctimplementation.RequestsMaker.makeRequest - Calling handleRequest method
+30-10-2019 22:04:36.945 [main] INFO  correctimplementation.RequestHandler.handleRequest - [Passing to next handler]
+30-10-2019 23:24:20.042 [main] INFO  c.ExceptionDispatcher.main - Checking Annotations using reflections
+30-10-2019 23:24:20.310 [main] INFO  org.reflections.Reflections.scan - Reflections took 143 ms to scan 1 urls, producing 3 keys and 5 values 
+30-10-2019 23:24:20.337 [main] INFO  c.ExceptionDispatcher.main - Throwing exception request 1
+30-10-2019 23:24:20.337 [main] INFO  correctimplementation.RequestsMaker.makeRequest - Calling handleRequest method
+30-10-2019 23:24:20.338 [main] INFO  c.NullPointerExceptionClass.handleRequest - [Handler]Caught a null pointer exception
+30-10-2019 23:24:20.338 [main] INFO  c.ExceptionDispatcher.main - Throwing exception request 2
+30-10-2019 23:24:20.339 [main] INFO  correctimplementation.RequestsMaker.makeRequest - Calling handleRequest method
+30-10-2019 23:24:20.339 [main] INFO  c.NullPointerExceptionClass.handleRequest - [Handler] Cannot process the request. Passing to next handler
+30-10-2019 23:24:20.339 [main] INFO  correctimplementation.RequestHandler.handleRequest - [Passing to next handler]
+30-10-2019 23:24:20.339 [main] INFO  c.ClassNotFoundExceptionClass.handleRequest - [Handler] Cannot process the request. Passing to next handler
+30-10-2019 23:24:20.339 [main] INFO  correctimplementation.RequestHandler.handleRequest - [Passing to next handler]
+30-10-2019 23:24:20.340 [main] INFO  c.IOExceptionClass.handleRequest - [Handler]Caught IOException
+30-10-2019 23:24:20.340 [main] INFO  c.ExceptionDispatcher.main - Throwing exception request 3
+30-10-2019 23:24:20.340 [main] INFO  correctimplementation.RequestsMaker.makeRequest - Calling handleRequest method
+30-10-2019 23:24:20.340 [main] INFO  c.NullPointerExceptionClass.handleRequest - [Handler] Cannot process the request. Passing to next handler
+30-10-2019 23:24:20.340 [main] INFO  correctimplementation.RequestHandler.handleRequest - [Passing to next handler]
+30-10-2019 23:24:20.340 [main] INFO  c.ClassNotFoundExceptionClass.handleRequest - [Handler]Caught ClassNotFoundException
+30-10-2019 23:24:54.934 [main] INFO  c.ExceptionDispatcher.main - Checking Annotations using reflections
+30-10-2019 23:24:55.221 [main] INFO  org.reflections.Reflections.scan - Reflections took 169 ms to scan 1 urls, producing 3 keys and 5 values 
+30-10-2019 23:26:03.818 [main] INFO  c.ExceptionDispatcher.main - Throwing exception request 1
+30-10-2019 23:26:03.819 [main] INFO  correctimplementation.RequestsMaker.makeRequest - Calling handleRequest method
+30-10-2019 23:26:03.820 [main] INFO  c.NullPointerExceptionClass.handleRequest - [Handler]Caught a null pointer exception
+30-10-2019 23:26:03.820 [main] INFO  c.ExceptionDispatcher.main - Throwing exception request 2
+30-10-2019 23:26:03.821 [main] INFO  correctimplementation.RequestsMaker.makeRequest - Calling handleRequest method
+30-10-2019 23:26:03.822 [main] INFO  c.NullPointerExceptionClass.handleRequest - [Handler] Cannot process the request. Passing to next handler
+30-10-2019 23:26:03.822 [main] INFO  correctimplementation.RequestHandler.handleRequest - [Passing to next handler]
+30-10-2019 23:26:03.823 [main] INFO  c.ClassNotFoundExceptionClass.handleRequest - [Handler] Cannot process the request. Passing to next handler
+30-10-2019 23:26:03.824 [main] INFO  correctimplementation.RequestHandler.handleRequest - [Passing to next handler]
+30-10-2019 23:26:03.824 [main] INFO  c.IOExceptionClass.handleRequest - [Handler]Caught IOException
+30-10-2019 23:26:03.825 [main] INFO  c.ExceptionDispatcher.main - Throwing exception request 3
+30-10-2019 23:26:03.826 [main] INFO  correctimplementation.RequestsMaker.makeRequest - Calling handleRequest method
+30-10-2019 23:26:03.826 [main] INFO  c.NullPointerExceptionClass.handleRequest - [Handler] Cannot process the request. Passing to next handler
+30-10-2019 23:26:03.829 [main] INFO  correctimplementation.RequestHandler.handleRequest - [Passing to next handler]
+30-10-2019 23:26:03.830 [main] INFO  c.ClassNotFoundExceptionClass.handleRequest - [Handler]Caught ClassNotFoundException
+30-10-2019 23:43:55.171 [main] INFO  c.ExceptionDispatcher.main - Checking Annotations using reflections
+30-10-2019 23:43:55.378 [main] INFO  org.reflections.Reflections.scan - Reflections took 133 ms to scan 1 urls, producing 3 keys and 5 values 
+30-10-2019 23:43:55.405 [main] INFO  c.ExceptionDispatcher.main - Throwing exception request 1
+30-10-2019 23:43:55.406 [main] INFO  correctimplementation.RequestsMaker.makeRequest - Calling handleRequest method
+30-10-2019 23:43:55.406 [main] INFO  c.NullPointerExceptionClass.handleRequest - [Handler]Caught a null pointer exception
+30-10-2019 23:43:55.407 [main] INFO  c.ExceptionDispatcher.main - Throwing exception request 2
+30-10-2019 23:43:55.407 [main] INFO  correctimplementation.RequestsMaker.makeRequest - Calling handleRequest method
+30-10-2019 23:43:55.407 [main] INFO  c.NullPointerExceptionClass.handleRequest - [Handler] Cannot process the request. Passing to next handler
+30-10-2019 23:43:55.408 [main] INFO  correctimplementation.RequestHandler.handleRequest - [Passing to next handler]
+30-10-2019 23:43:55.408 [main] INFO  c.ClassNotFoundExceptionClass.handleRequest - [Handler] Cannot process the request. Passing to next handler
+30-10-2019 23:43:55.409 [main] INFO  correctimplementation.RequestHandler.handleRequest - [Passing to next handler]
+30-10-2019 23:43:55.409 [main] INFO  c.IOExceptionClass.handleRequest - [Handler]Caught IOException
+30-10-2019 23:43:55.409 [main] INFO  c.ExceptionDispatcher.main - Throwing exception request 3
+30-10-2019 23:43:55.410 [main] INFO  correctimplementation.RequestsMaker.makeRequest - Calling handleRequest method
+30-10-2019 23:43:55.410 [main] INFO  c.NullPointerExceptionClass.handleRequest - [Handler] Cannot process the request. Passing to next handler
+30-10-2019 23:43:55.410 [main] INFO  correctimplementation.RequestHandler.handleRequest - [Passing to next handler]
+30-10-2019 23:43:55.410 [main] INFO  c.ClassNotFoundExceptionClass.handleRequest - [Handler]Caught ClassNotFoundException
+30-10-2019 23:44:16.861 [main] INFO  c.ExceptionDispatcher.main - Checking Annotations using reflections
+30-10-2019 23:44:17.104 [main] INFO  org.reflections.Reflections.scan - Reflections took 147 ms to scan 1 urls, producing 3 keys and 5 values 
+30-10-2019 23:48:50.719 [main] INFO  c.ExceptionDispatcher.main - Throwing exception request 1
+30-10-2019 23:48:50.720 [main] INFO  correctimplementation.RequestsMaker.makeRequest - Calling handleRequest method
+30-10-2019 23:48:50.721 [main] INFO  c.NullPointerExceptionClass.handleRequest - [Handler]Caught a null pointer exception
+30-10-2019 23:48:50.722 [main] INFO  c.ExceptionDispatcher.main - Throwing exception request 2
+30-10-2019 23:48:50.722 [main] INFO  correctimplementation.RequestsMaker.makeRequest - Calling handleRequest method
+30-10-2019 23:48:50.723 [main] INFO  c.NullPointerExceptionClass.handleRequest - [Handler] Cannot process the request. Passing to next handler
+30-10-2019 23:48:50.723 [main] INFO  correctimplementation.RequestHandler.handleRequest - [Passing to next handler]
+30-10-2019 23:48:50.723 [main] INFO  c.ClassNotFoundExceptionClass.handleRequest - [Handler] Cannot process the request. Passing to next handler
+30-10-2019 23:48:50.723 [main] INFO  correctimplementation.RequestHandler.handleRequest - [Passing to next handler]
+30-10-2019 23:48:50.724 [main] INFO  c.IOExceptionClass.handleRequest - [Handler]Caught IOException
+30-10-2019 23:48:50.724 [main] INFO  c.ExceptionDispatcher.main - Throwing exception request 3
+30-10-2019 23:48:50.725 [main] INFO  correctimplementation.RequestsMaker.makeRequest - Calling handleRequest method
+30-10-2019 23:48:50.725 [main] INFO  c.NullPointerExceptionClass.handleRequest - [Handler] Cannot process the request. Passing to next handler
+30-10-2019 23:48:50.728 [main] INFO  correctimplementation.RequestHandler.handleRequest - [Passing to next handler]
+30-10-2019 23:48:50.729 [main] INFO  c.ClassNotFoundExceptionClass.handleRequest - [Handler]Caught ClassNotFoundException
+31-10-2019 00:02:40.269 [main] INFO  c.ExceptionDispatcher.main - Checking Annotations using reflections
+31-10-2019 00:02:40.594 [main] INFO  org.reflections.Reflections.scan - Reflections took 201 ms to scan 1 urls, producing 3 keys and 5 values 
+31-10-2019 00:03:18.359 [main] INFO  c.ExceptionDispatcher.main - Checking Annotations using reflections
+31-10-2019 00:03:18.792 [main] INFO  org.reflections.Reflections.scan - Reflections took 293 ms to scan 1 urls, producing 3 keys and 5 values 
+31-10-2019 00:07:02.952 [main] INFO  c.ExceptionDispatcher.main - Checking Annotations using reflections
+31-10-2019 00:07:03.129 [main] INFO  org.reflections.Reflections.scan - Reflections took 102 ms to scan 1 urls, producing 3 keys and 5 values 
+31-10-2019 00:07:03.158 [main] INFO  c.ExceptionDispatcher.main - Throwing exception request 1
+31-10-2019 00:07:03.159 [main] INFO  correctimplementation.RequestsMaker.makeRequest - Calling handleRequest method
+31-10-2019 00:07:03.159 [main] INFO  c.NullPointerExceptionClass.handleRequest - [Handler]Caught a null pointer exception
+31-10-2019 00:07:03.160 [main] INFO  c.ExceptionDispatcher.main - Throwing exception request 2
+31-10-2019 00:07:03.160 [main] INFO  correctimplementation.RequestsMaker.makeRequest - Calling handleRequest method
+31-10-2019 00:07:03.160 [main] INFO  c.NullPointerExceptionClass.handleRequest - [Handler] Cannot process the request. Passing to next handler
+31-10-2019 00:07:03.160 [main] INFO  correctimplementation.RequestHandler.handleRequest - [Passing to next handler]
+31-10-2019 00:07:03.161 [main] INFO  c.ClassNotFoundExceptionClass.handleRequest - [Handler] Cannot process the request. Passing to next handler
+31-10-2019 00:07:03.161 [main] INFO  correctimplementation.RequestHandler.handleRequest - [Passing to next handler]
+31-10-2019 00:07:03.161 [main] INFO  c.IOExceptionClass.handleRequest - [Handler]Caught IOException
+31-10-2019 00:07:03.161 [main] INFO  c.ExceptionDispatcher.main - Throwing exception request 3
+31-10-2019 00:07:03.161 [main] INFO  correctimplementation.RequestsMaker.makeRequest - Calling handleRequest method
+31-10-2019 00:07:03.161 [main] INFO  c.NullPointerExceptionClass.handleRequest - [Handler] Cannot process the request. Passing to next handler
+31-10-2019 00:07:03.161 [main] INFO  correctimplementation.RequestHandler.handleRequest - [Passing to next handler]
+31-10-2019 00:07:03.161 [main] INFO  c.ClassNotFoundExceptionClass.handleRequest - [Handler]Caught ClassNotFoundException
+31-10-2019 00:09:37.127 [main] INFO  c.ExceptionDispatcher.main - Checking Annotations using reflections
+31-10-2019 00:09:37.714 [main] INFO  org.reflections.Reflections.scan - Reflections took 384 ms to scan 1 urls, producing 3 keys and 5 values 
+31-10-2019 00:22:46.319 [main] INFO  c.ExceptionDispatcher.main - Checking Annotations using reflections
+31-10-2019 00:22:46.484 [main] INFO  org.reflections.Reflections.scan - Reflections took 99 ms to scan 1 urls, producing 3 keys and 5 values 
+31-10-2019 00:22:46.507 [main] INFO  c.ExceptionDispatcher.main - Throwing exception request 1
+31-10-2019 00:22:46.507 [main] INFO  correctimplementation.RequestsMaker.makeRequest - Calling handleRequest method
+31-10-2019 00:22:46.507 [main] INFO  c.NullPointerExceptionClass.handleRequest - [Handler]Caught a null pointer exception
+31-10-2019 00:22:46.508 [main] INFO  c.ExceptionDispatcher.main - Throwing exception request 2
+31-10-2019 00:22:46.508 [main] INFO  correctimplementation.RequestsMaker.makeRequest - Calling handleRequest method
+31-10-2019 00:22:46.508 [main] INFO  c.NullPointerExceptionClass.handleRequest - [Handler] Cannot process the request. Passing to next handler
+31-10-2019 00:22:46.508 [main] INFO  correctimplementation.RequestHandler.handleRequest - [Passing to next handler]
+31-10-2019 00:22:46.508 [main] INFO  c.ClassNotFoundExceptionClass.handleRequest - [Handler] Cannot process the request. Passing to next handler
+31-10-2019 00:22:46.509 [main] INFO  correctimplementation.RequestHandler.handleRequest - [Passing to next handler]
+31-10-2019 00:22:46.509 [main] INFO  c.IOExceptionClass.handleRequest - [Handler]Caught IOException
+31-10-2019 00:22:46.509 [main] INFO  c.ExceptionDispatcher.main - Throwing exception request 3
+31-10-2019 00:22:46.509 [main] INFO  correctimplementation.RequestsMaker.makeRequest - Calling handleRequest method
+31-10-2019 00:22:46.510 [main] INFO  c.NullPointerExceptionClass.handleRequest - [Handler] Cannot process the request. Passing to next handler
+31-10-2019 00:22:46.510 [main] INFO  correctimplementation.RequestHandler.handleRequest - [Passing to next handler]
+31-10-2019 00:22:46.510 [main] INFO  c.ClassNotFoundExceptionClass.handleRequest - [Handler]Caught ClassNotFoundException
+31-10-2019 00:23:04.862 [main] INFO  c.ExceptionDispatcher.main - Checking Annotations using reflections
+31-10-2019 00:23:05.124 [main] INFO  org.reflections.Reflections.scan - Reflections took 159 ms to scan 1 urls, producing 3 keys and 5 values 
+31-10-2019 00:40:01.936 [main] INFO  c.ExceptionDispatcher.main - Checking Annotations using reflections
+31-10-2019 00:40:02.107 [main] INFO  org.reflections.Reflections.scan - Reflections took 106 ms to scan 1 urls, producing 3 keys and 5 values 
+31-10-2019 00:40:02.131 [main] INFO  c.ExceptionDispatcher.main - Throwing exception request 1
+31-10-2019 00:40:02.131 [main] INFO  correctimplementation.RequestsMaker.makeRequest - Calling handleRequest method
+31-10-2019 00:40:02.132 [main] INFO  c.NullPointerExceptionClass.handleRequest - [Handler]Caught a null pointer exception
+31-10-2019 00:40:02.132 [main] INFO  c.ExceptionDispatcher.main - Throwing exception request 2
+31-10-2019 00:40:02.133 [main] INFO  correctimplementation.RequestsMaker.makeRequest - Calling handleRequest method
+31-10-2019 00:40:02.133 [main] INFO  c.NullPointerExceptionClass.handleRequest - [Handler] Cannot process the request. Passing to next handler
+31-10-2019 00:40:02.133 [main] INFO  correctimplementation.RequestHandler.handleRequest - [Passing to next handler]
+31-10-2019 00:40:02.134 [main] INFO  c.ClassNotFoundExceptionClass.handleRequest - [Handler] Cannot process the request. Passing to next handler
+31-10-2019 00:40:02.134 [main] INFO  correctimplementation.RequestHandler.handleRequest - [Passing to next handler]
+31-10-2019 00:40:02.134 [main] INFO  c.IOExceptionClass.handleRequest - [Handler]Caught IOException
+31-10-2019 00:40:02.135 [main] INFO  c.ExceptionDispatcher.main - Throwing exception request 3
+31-10-2019 00:40:02.135 [main] INFO  correctimplementation.RequestsMaker.makeRequest - Calling handleRequest method
+31-10-2019 00:40:02.136 [main] INFO  c.NullPointerExceptionClass.handleRequest - [Handler] Cannot process the request. Passing to next handler
+31-10-2019 00:40:02.136 [main] INFO  correctimplementation.RequestHandler.handleRequest - [Passing to next handler]
+31-10-2019 00:40:02.136 [main] INFO  c.ClassNotFoundExceptionClass.handleRequest - [Handler]Caught ClassNotFoundException
+31-10-2019 00:40:21.760 [main] INFO  c.ExceptionDispatcher.main - Checking Annotations using reflections
+31-10-2019 00:40:21.980 [main] INFO  org.reflections.Reflections.scan - Reflections took 126 ms to scan 1 urls, producing 3 keys and 5 values 
+31-10-2019 00:45:08.083 [main] INFO  c.ExceptionDispatcher.main - Throwing exception request 1
+31-10-2019 00:45:08.084 [main] INFO  correctimplementation.RequestsMaker.makeRequest - Calling handleRequest method
+31-10-2019 00:45:08.084 [main] INFO  c.NullPointerExceptionClass.handleRequest - [Handler]Caught a null pointer exception
+31-10-2019 00:45:08.085 [main] INFO  c.ExceptionDispatcher.main - Throwing exception request 2
+31-10-2019 00:45:08.085 [main] INFO  correctimplementation.RequestsMaker.makeRequest - Calling handleRequest method
+31-10-2019 00:45:08.085 [main] INFO  c.NullPointerExceptionClass.handleRequest - [Handler] Cannot process the request. Passing to next handler
+31-10-2019 00:45:08.086 [main] INFO  correctimplementation.RequestHandler.handleRequest - [Passing to next handler]
+31-10-2019 00:45:08.086 [main] INFO  c.ClassNotFoundExceptionClass.handleRequest - [Handler] Cannot process the request. Passing to next handler
+31-10-2019 00:45:08.086 [main] INFO  correctimplementation.RequestHandler.handleRequest - [Passing to next handler]
+31-10-2019 00:45:08.086 [main] INFO  c.IOExceptionClass.handleRequest - [Handler]Caught IOException
+31-10-2019 00:45:08.087 [main] INFO  c.ExceptionDispatcher.main - Throwing exception request 3
+31-10-2019 00:45:08.087 [main] INFO  correctimplementation.RequestsMaker.makeRequest - Calling handleRequest method
+31-10-2019 00:45:08.087 [main] INFO  c.NullPointerExceptionClass.handleRequest - [Handler] Cannot process the request. Passing to next handler
+31-10-2019 00:45:08.090 [main] INFO  correctimplementation.RequestHandler.handleRequest - [Passing to next handler]
+31-10-2019 00:45:08.091 [main] INFO  c.ClassNotFoundExceptionClass.handleRequest - [Handler]Caught ClassNotFoundException
+31-10-2019 00:46:30.696 [main] INFO  c.ExceptionDispatcher.main - Checking Annotations using reflections
+31-10-2019 00:46:30.853 [main] INFO  org.reflections.Reflections.scan - Reflections took 91 ms to scan 1 urls, producing 3 keys and 5 values 
+31-10-2019 00:46:30.876 [main] INFO  c.ExceptionDispatcher.main - Throwing exception request 1
+31-10-2019 00:46:30.877 [main] INFO  correctimplementation.RequestsMaker.makeRequest - Calling handleRequest method
+31-10-2019 00:46:30.877 [main] INFO  c.NullPointerExceptionClass.handleRequest - [Handler]Caught a null pointer exception
+31-10-2019 00:46:30.877 [main] INFO  c.ExceptionDispatcher.main - Throwing exception request 2
+31-10-2019 00:46:30.877 [main] INFO  correctimplementation.RequestsMaker.makeRequest - Calling handleRequest method
+31-10-2019 00:46:30.877 [main] INFO  c.NullPointerExceptionClass.handleRequest - [Handler] Cannot process the request. Passing to next handler
+31-10-2019 00:46:30.877 [main] INFO  correctimplementation.RequestHandler.handleRequest - [Passing to next handler]
+31-10-2019 00:46:30.878 [main] INFO  c.ClassNotFoundExceptionClass.handleRequest - [Handler] Cannot process the request. Passing to next handler
+31-10-2019 00:46:30.878 [main] INFO  correctimplementation.RequestHandler.handleRequest - [Passing to next handler]
+31-10-2019 00:46:30.879 [main] INFO  c.IOExceptionClass.handleRequest - [Handler]Caught IOException
+31-10-2019 00:46:30.879 [main] INFO  c.ExceptionDispatcher.main - Throwing exception request 3
+31-10-2019 00:46:30.879 [main] INFO  correctimplementation.RequestsMaker.makeRequest - Calling handleRequest method
+31-10-2019 00:46:30.879 [main] INFO  c.NullPointerExceptionClass.handleRequest - [Handler] Cannot process the request. Passing to next handler
+31-10-2019 00:46:30.880 [main] INFO  correctimplementation.RequestHandler.handleRequest - [Passing to next handler]
+31-10-2019 00:46:30.880 [main] INFO  c.ClassNotFoundExceptionClass.handleRequest - [Handler]Caught ClassNotFoundException
+31-10-2019 00:51:14.686 [main] INFO  c.ExceptionDispatcher.main - Checking Annotations using reflections
+31-10-2019 00:51:14.965 [main] INFO  org.reflections.Reflections.scan - Reflections took 182 ms to scan 1 urls, producing 3 keys and 5 values 
+31-10-2019 00:56:12.050 [main] INFO  c.ExceptionDispatcher.main - Checking Annotations using reflections
+31-10-2019 00:56:12.357 [main] INFO  org.reflections.Reflections.scan - Reflections took 188 ms to scan 1 urls, producing 3 keys and 5 values 
+31-10-2019 01:04:20.110 [main] INFO  c.ExceptionDispatcher.main - Checking Annotations using reflections
+31-10-2019 01:04:20.286 [main] INFO  org.reflections.Reflections.scan - Reflections took 95 ms to scan 1 urls, producing 3 keys and 5 values 
+31-10-2019 01:04:20.308 [main] INFO  c.ExceptionDispatcher.main - Throwing exception request 1
+31-10-2019 01:04:20.308 [main] INFO  correctimplementation.RequestsMaker.makeRequest - Calling handleRequest method
+31-10-2019 01:04:20.308 [main] INFO  c.NullPointerExceptionClass.handleRequest - [Handler]Caught a null pointer exception
+31-10-2019 01:04:20.309 [main] INFO  c.ExceptionDispatcher.main - Throwing exception request 2
+31-10-2019 01:04:20.309 [main] INFO  correctimplementation.RequestsMaker.makeRequest - Calling handleRequest method
+31-10-2019 01:04:20.309 [main] INFO  c.NullPointerExceptionClass.handleRequest - [Handler] Cannot process the request. Passing to next handler
+31-10-2019 01:04:20.309 [main] INFO  correctimplementation.RequestHandler.handleRequest - [Passing to next handler]
+31-10-2019 01:04:20.310 [main] INFO  c.ClassNotFoundExceptionClass.handleRequest - [Handler] Cannot process the request. Passing to next handler
+31-10-2019 01:04:20.310 [main] INFO  correctimplementation.RequestHandler.handleRequest - [Passing to next handler]
+31-10-2019 01:04:20.310 [main] INFO  c.IOExceptionClass.handleRequest - [Handler]Caught IOException
+31-10-2019 01:04:20.311 [main] INFO  c.ExceptionDispatcher.main - Throwing exception request 3
+31-10-2019 01:04:20.311 [main] INFO  correctimplementation.RequestsMaker.makeRequest - Calling handleRequest method
+31-10-2019 01:04:20.311 [main] INFO  c.NullPointerExceptionClass.handleRequest - [Handler] Cannot process the request. Passing to next handler
+31-10-2019 01:04:20.312 [main] INFO  correctimplementation.RequestHandler.handleRequest - [Passing to next handler]
+31-10-2019 01:04:20.312 [main] INFO  c.ClassNotFoundExceptionClass.handleRequest - [Handler]Caught ClassNotFoundException
+31-10-2019 01:05:27.984 [main] INFO  c.ExceptionDispatcher.main - Checking Annotations using reflections
+31-10-2019 01:05:28.149 [main] INFO  org.reflections.Reflections.scan - Reflections took 97 ms to scan 1 urls, producing 3 keys and 5 values 
+31-10-2019 01:05:28.170 [main] INFO  c.ExceptionDispatcher.main - Throwing exception request 1
+31-10-2019 01:05:28.170 [main] INFO  correctimplementation.RequestsMaker.makeRequest - Calling handleRequest method
+31-10-2019 01:05:28.170 [main] INFO  c.NullPointerExceptionClass.handleRequest - [Handler]Caught a null pointer exception
+31-10-2019 01:05:28.172 [main] INFO  c.ExceptionDispatcher.main - Throwing exception request 2
+31-10-2019 01:05:28.172 [main] INFO  correctimplementation.RequestsMaker.makeRequest - Calling handleRequest method
+31-10-2019 01:05:28.172 [main] INFO  c.NullPointerExceptionClass.handleRequest - [Handler] Cannot process the request. Passing to next handler
+31-10-2019 01:05:28.172 [main] INFO  correctimplementation.RequestHandler.handleRequest - [Passing to next handler]
+31-10-2019 01:05:28.172 [main] INFO  c.ClassNotFoundExceptionClass.handleRequest - [Handler] Cannot process the request. Passing to next handler
+31-10-2019 01:05:28.172 [main] INFO  correctimplementation.RequestHandler.handleRequest - [Passing to next handler]
+31-10-2019 01:05:28.172 [main] INFO  c.IOExceptionClass.handleRequest - [Handler]Caught IOException
+31-10-2019 01:05:28.172 [main] INFO  c.ExceptionDispatcher.main - Throwing exception request 3
+31-10-2019 01:05:28.172 [main] INFO  correctimplementation.RequestsMaker.makeRequest - Calling handleRequest method
+31-10-2019 01:05:28.173 [main] INFO  c.NullPointerExceptionClass.handleRequest - [Handler] Cannot process the request. Passing to next handler
+31-10-2019 01:05:28.173 [main] INFO  correctimplementation.RequestHandler.handleRequest - [Passing to next handler]
+31-10-2019 01:05:28.173 [main] INFO  c.ClassNotFoundExceptionClass.handleRequest - [Handler]Caught ClassNotFoundException
+31-10-2019 01:24:47.281 [main] INFO  c.ExceptionDispatcher.main - Checking Annotations using reflections
+31-10-2019 01:24:47.451 [main] INFO  org.reflections.Reflections.scan - Reflections took 104 ms to scan 1 urls, producing 3 keys and 5 values 
+31-10-2019 01:24:47.473 [main] INFO  c.ExceptionDispatcher.main - Throwing exception request 1
+31-10-2019 01:24:47.474 [main] INFO  correctimplementation.RequestsMaker.makeRequest - Calling handleRequest method
+31-10-2019 01:24:47.474 [main] INFO  c.NullPointerExceptionClass.handleRequest - [Handler]Caught a null pointer exception
+31-10-2019 01:24:47.474 [main] INFO  c.ExceptionDispatcher.main - Throwing exception request 2
+31-10-2019 01:24:47.475 [main] INFO  correctimplementation.RequestsMaker.makeRequest - Calling handleRequest method
+31-10-2019 01:24:47.475 [main] INFO  c.NullPointerExceptionClass.handleRequest - [Handler] Cannot process the request. Passing to next handler
+31-10-2019 01:24:47.475 [main] INFO  correctimplementation.RequestHandler.handleRequest - [Passing to next handler]
+31-10-2019 01:24:47.475 [main] INFO  c.ClassNotFoundExceptionClass.handleRequest - [Handler] Cannot process the request. Passing to next handler
+31-10-2019 01:24:47.476 [main] INFO  correctimplementation.RequestHandler.handleRequest - [Passing to next handler]
+31-10-2019 01:24:47.476 [main] INFO  c.IOExceptionClass.handleRequest - [Handler]Caught IOException
+31-10-2019 01:24:47.476 [main] INFO  c.ExceptionDispatcher.main - Throwing exception request 3
+31-10-2019 01:24:47.476 [main] INFO  correctimplementation.RequestsMaker.makeRequest - Calling handleRequest method
+31-10-2019 01:24:47.476 [main] INFO  c.NullPointerExceptionClass.handleRequest - [Handler] Cannot process the request. Passing to next handler
+31-10-2019 01:24:47.477 [main] INFO  correctimplementation.RequestHandler.handleRequest - [Passing to next handler]
+31-10-2019 01:24:47.477 [main] INFO  c.ClassNotFoundExceptionClass.handleRequest - [Handler]Caught ClassNotFoundException

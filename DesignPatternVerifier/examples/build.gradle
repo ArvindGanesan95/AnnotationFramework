@@ -1,0 +1,8 @@
+apply plugin: 'application'
+apply plugin: 'java'
+mainClassName = 'correctimplementation.ExceptionDispatcher'
+
+dependencies {
+    compile project(':annotationprocessor')
+}
+
