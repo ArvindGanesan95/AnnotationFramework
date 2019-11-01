@@ -52,15 +52,7 @@
             - ConsoleLogger
             - ErrorLogger
             - FileLogger
-        - Module 3: example3
-            - Demonstrates COR by passing the number of days of leave required for a person. The handles are Manager, Supervisor and AccountHead. This code **generates compile time warnings**
-            - Classes Used
-                 - AccountHead
-                 - Approver
-                 - LeaveRequest
-                 -  LeaveSystem
-                 -  Manager
-                 -  SuperVisor
+
      - ### Module 3: example3
         - Demonstrates COR through a program that approves leave based
         on the number of days. The approvers are Manager,Supervisor, and AccountHead
@@ -73,17 +65,19 @@
             - AccountHead
 
 ## Setting up Modules in gradle project
-- There are 4 sub modules in total: **examples,example2, example3 and annotationprocessor** and a root module
-    - Add the following lines in build.gradle file for the modules: **examples,example2, example3**.
+    - There are 4 sub modules in total: **examples,example2, example3 and annotationprocessor** and a root module
+    - Add the following lines in build.gradle file for the modules: **examples,example2, example3**
+    
         ```
-        apply plugin: 'application'
-        apply plugin: 'java'
-        mainClassName = 'packagename.classNameThatHasMainFunction'
+            apply plugin: 'application'
+            apply plugin: 'java'
+            mainClassName = 'packagename.classNameThatHasMainFunction'
+
+            dependencies {
+            compile project(':annotationprocessor')
+            }    
+        ```
         
-        dependencies {
-        compile project(':annotationprocessor')
-        }
-        ```
     - Add the following lines in annotation processor module's build.gradle file
         ```
         apply plugin: 'java'
@@ -92,8 +86,11 @@
         dependencies {
         
         }
+        
         ```
+        
     - Add the following lines in **project root's build.gradle file**
+        
         ```
         apply plugin: 'idea'
         
@@ -128,8 +125,11 @@
         compile group: 'com.google.testing.compile', name: 'compile-testing', version: '0.15'
         }
         }
+        
         ```
+        
     - Add the following lines in **project root's settings.gradle file**
+    
         ```
             include 'examples'
             include 'annotationprocessor'
@@ -145,7 +145,7 @@
 
 ## Setting up Configuration library
    - After adding TypeSafe dependency, an application.conf file
-    is created inside the required module under resources folder.
+     is created inside the required module under resources folder.
    - In this project, example2 module uses a configuration file.
 
 ## Unit Tests
@@ -191,3 +191,7 @@
 - **Using gradle Commandline**
     - Go to the project root's directory. Open gradlew.bat file in command line
     - Execute the following command: gradlew clean build run
+    
+    ![buildOutput](https://bitbucket.org/arvind_ganesan/arvind_ganesan_hw2/raw/e8c1a7dcb237ec80bd85c93d31694a65ea6bf93d/OutputImages/buildOutput.JPG)
+    ![runOutput](https://bitbucket.org/arvind_ganesan/arvind_ganesan_hw2/raw/e8c1a7dcb237ec80bd85c93d31694a65ea6bf93d/OutputImages/runOutput.JPG)
+
