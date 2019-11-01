@@ -1,8 +1,13 @@
 package COR_example2;
 
 import annotationlibrary.Handler;
+import com.typesafe.config.ConfigFactory;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
 
 @Handler
 public class FileLogger extends AbstractLogger {
@@ -14,7 +19,7 @@ public class FileLogger extends AbstractLogger {
     }
 
     @Override
-    public void logMessage(int level, String message){
+    public void logMessage(int level, String message) throws IOException {
         if(level == 2)
         {
             LOGGER.info("[Handler] Input caught at file handler");
@@ -28,8 +33,12 @@ public class FileLogger extends AbstractLogger {
     }
 
     @Override
-    protected void write(String message)
-    {
+    protected void write(String message) throws IOException {
+
         System.out.println("File::Logger: " + message);
+        File file=new File(ConfigFactory.load().getString("FileLoggerLogFile"));
+        FileWriter writer = new FileWriter(file);
+        writer.write("File::Logger: " + message);
+        writer.close();
     }
 }

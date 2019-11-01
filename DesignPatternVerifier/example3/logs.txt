@@ -306,3 +306,36 @@
 31-10-2019 01:04:19.496 [main] INFO  COR_example3.AccountHead.approveRequest - [Handler] Input caught at AccountHead handler
 31-10-2019 01:04:19.496 [main] INFO  COR_example3.SuperVisor.approveRequest - [Handler] Cannot process the request. Passing to next handler
 31-10-2019 01:04:19.497 [main] INFO  COR_example3.Manager.approveRequest - [Handler] Input caught at Manager handler
+31-10-2019 20:42:18.639 [main] INFO  COR_example3.LeaveSystem.main - Creating Chain of handlers
+31-10-2019 20:42:18.648 [main] INFO  COR_example3.LeaveSystem.main - Passing requests...
+31-10-2019 20:42:18.658 [main] INFO  COR_example3.SuperVisor.approveRequest - [Handler] Input caught at SuperVisor handler
+31-10-2019 20:42:18.659 [main] INFO  COR_example3.SuperVisor.approveRequest - [Handler] Cannot process the request. Passing to next handler
+31-10-2019 20:42:18.661 [main] INFO  COR_example3.Manager.approveRequest - [Handler] Cannot process the request. Passing to next handler
+31-10-2019 20:42:18.661 [main] INFO  COR_example3.Approver.approveRequest - [Passing to next handler]
+31-10-2019 20:42:18.662 [main] INFO  COR_example3.Manager.approveRequest - [Handler] Cannot process the request. Passing to next handler
+31-10-2019 20:42:18.662 [main] INFO  COR_example3.Approver.approveRequest - [Passing to next handler]
+31-10-2019 20:42:18.663 [main] INFO  COR_example3.AccountHead.approveRequest - [Handler] Input caught at AccountHead handler
+31-10-2019 20:42:18.666 [main] INFO  COR_example3.SuperVisor.approveRequest - [Handler] Cannot process the request. Passing to next handler
+31-10-2019 20:42:18.667 [main] INFO  COR_example3.Manager.approveRequest - [Handler] Input caught at Manager handler
+31-10-2019 20:43:16.214 [main] INFO  COR_example3.LeaveSystem.main - Creating Chain of handlers
+31-10-2019 20:43:16.219 [main] INFO  COR_example3.LeaveSystem.main - Passing requests...
+31-10-2019 20:43:16.226 [main] INFO  COR_example3.SuperVisor.approveRequest - [Handler] Input caught at SuperVisor handler
+31-10-2019 20:43:16.227 [main] INFO  COR_example3.SuperVisor.approveRequest - [Handler] Cannot process the request. Passing to next handler
+31-10-2019 20:43:16.228 [main] INFO  COR_example3.Manager.approveRequest - [Handler] Cannot process the request. Passing to next handler
+31-10-2019 20:43:16.228 [main] INFO  COR_example3.Approver.approveRequest - [Passing to next handler]
+31-10-2019 20:43:16.228 [main] INFO  COR_example3.Manager.approveRequest - [Handler] Cannot process the request. Passing to next handler
+31-10-2019 20:43:16.228 [main] INFO  COR_example3.Approver.approveRequest - [Passing to next handler]
+31-10-2019 20:43:16.228 [main] INFO  COR_example3.AccountHead.approveRequest - [Handler] Input caught at AccountHead handler
+31-10-2019 20:43:16.229 [main] INFO  COR_example3.SuperVisor.approveRequest - [Handler] Cannot process the request. Passing to next handler
+31-10-2019 20:43:16.229 [main] INFO  COR_example3.Manager.approveRequest - [Handler] Input caught at Manager handler
+31-10-2019 21:02:25.894 [main] INFO  COR_example3.LeaveSystem.main - Creating Chain of handlers
+31-10-2019 21:02:25.899 [main] INFO  COR_example3.LeaveSystem.main - Passing requests...
+31-10-2019 21:02:25.900 [main] INFO  COR_example3.SuperVisor.approveRequest - [Handler] Input caught at SuperVisor handler
+31-10-2019 21:02:25.900 [main] INFO  COR_example3.SuperVisor.approveRequest - [Handler] Cannot process the request. Passing to next handler
+31-10-2019 21:02:25.900 [main] INFO  COR_example3.Manager.approveRequest - [Handler] Cannot process the request. Passing to next handler
+31-10-2019 21:02:25.901 [main] INFO  COR_example3.Approver.approveRequest - [Passing to next handler]
+31-10-2019 21:02:25.901 [main] INFO  COR_example3.Manager.approveRequest - [Handler] Cannot process the request. Passing to next handler
+31-10-2019 21:02:25.901 [main] INFO  COR_example3.Approver.approveRequest - [Passing to next handler]
+31-10-2019 21:02:25.901 [main] INFO  COR_example3.AccountHead.approveRequest - [Handler] Input caught at AccountHead handler
+31-10-2019 21:02:25.902 [main] INFO  COR_example3.SuperVisor.approveRequest - [Handler] Cannot process the request. Passing to next handler
+31-10-2019 21:02:25.902 [main] INFO  COR_example3.Manager.approveRequest - [Handler] Input caught at Manager handler

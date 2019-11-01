@@ -1,0 +1,12 @@
+31-10-2019 20:29:45.352 [main] INFO  COR_example2.ChainPatternDemo.getChainOfLoggers - Creating chain of handlers
+31-10-2019 20:41:46.314 [main] INFO  COR_example2.ChainPatternDemo.getChainOfLoggers - Creating chain of handlers
+31-10-2019 20:41:46.412 [main] INFO  COR_example2.ChainPatternDemo.main - Creating requests...
+31-10-2019 20:41:46.412 [main] INFO  COR_example2.ErrorLogger.logMessage - [Handler] Input caught at file handler
+31-10-2019 20:41:46.414 [main] INFO  COR_example2.ErrorLogger.logMessage - [Handler] Cannot process the request. Passing to next handler
+31-10-2019 20:41:46.415 [main] INFO  COR_example2.AbstractLogger.logMessage - [Passing to next handler]
+31-10-2019 20:41:46.415 [main] INFO  COR_example2.FileLogger.logMessage - [Handler] Input caught at file handler
+31-10-2019 20:41:46.416 [main] INFO  COR_example2.ErrorLogger.logMessage - [Handler] Cannot process the request. Passing to next handler
+31-10-2019 20:41:46.417 [main] INFO  COR_example2.AbstractLogger.logMessage - [Passing to next handler]
+31-10-2019 20:41:46.417 [main] INFO  COR_example2.FileLogger.logMessage - [Handler] Cannot process the request. Passing to next handler
+31-10-2019 20:41:46.418 [main] INFO  COR_example2.AbstractLogger.logMessage - [Passing to next handler]
+31-10-2019 20:41:46.419 [main] INFO  COR_example2.ConsoleLogger.logMessage - [Handler] Input caught at Console handler

@@ -1,0 +1,1 @@
+Error Console::Logger: This is an error level information.

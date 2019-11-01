@@ -1,0 +1,1 @@
+Standard Console::Logger: This is a console information.

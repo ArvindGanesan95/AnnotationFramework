@@ -5,6 +5,8 @@ import annotationlibrary.AbstractHandler;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import java.io.IOException;
+
 
 @AbstractHandler
 public class AbstractLogger  {
@@ -23,7 +25,7 @@ public class AbstractLogger  {
 
 
     @AbstractHandle
-    public void logMessage(int level, String message){
+    public void logMessage(int level, String message) throws IOException {
         // If there is a next logger to handle the request, pass the request to it
         if(nextLogger !=null){
             LOGGER.info("[Passing to next handler]");
@@ -35,7 +37,7 @@ public class AbstractLogger  {
         }
     }
 
-     protected void write(String message){}
+     protected void write(String message) throws IOException {}
 
 
 
