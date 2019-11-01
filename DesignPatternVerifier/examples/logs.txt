@@ -332,3 +332,20 @@
 31-10-2019 21:02:26.689 [main] INFO  c.NullPointerExceptionClass.handleRequest - [Handler] Cannot process the request. Passing to next handler
 31-10-2019 21:02:26.689 [main] INFO  correctimplementation.RequestHandler.handleRequest - [Passing to next handler]
 31-10-2019 21:02:26.690 [main] INFO  c.ClassNotFoundExceptionClass.handleRequest - [Handler]Caught ClassNotFoundException
+31-10-2019 21:20:54.529 [main] INFO  c.ExceptionDispatcher.main - Checking Annotations using reflections
+31-10-2019 21:20:54.879 [main] INFO  org.reflections.Reflections.scan - Reflections took 228 ms to scan 1 urls, producing 3 keys and 5 values 
+31-10-2019 21:20:54.916 [main] INFO  c.ExceptionDispatcher.main - Throwing exception request 1
+31-10-2019 21:20:54.917 [main] INFO  correctimplementation.RequestsMaker.makeRequest - Calling handleRequest method
+31-10-2019 21:20:54.918 [main] INFO  c.NullPointerExceptionClass.handleRequest - [Handler]Caught a null pointer exception
+31-10-2019 21:20:54.919 [main] INFO  c.ExceptionDispatcher.main - Throwing exception request 2
+31-10-2019 21:20:54.920 [main] INFO  correctimplementation.RequestsMaker.makeRequest - Calling handleRequest method
+31-10-2019 21:20:54.920 [main] INFO  c.NullPointerExceptionClass.handleRequest - [Handler] Cannot process the request. Passing to next handler
+31-10-2019 21:20:54.921 [main] INFO  correctimplementation.RequestHandler.handleRequest - [Passing to next handler]
+31-10-2019 21:20:54.922 [main] INFO  c.ClassNotFoundExceptionClass.handleRequest - [Handler] Cannot process the request. Passing to next handler
+31-10-2019 21:20:54.922 [main] INFO  correctimplementation.RequestHandler.handleRequest - [Passing to next handler]
+31-10-2019 21:20:54.923 [main] INFO  c.IOExceptionClass.handleRequest - [Handler]Caught IOException
+31-10-2019 21:20:54.923 [main] INFO  c.ExceptionDispatcher.main - Throwing exception request 3
+31-10-2019 21:20:54.924 [main] INFO  correctimplementation.RequestsMaker.makeRequest - Calling handleRequest method
+31-10-2019 21:20:54.924 [main] INFO  c.NullPointerExceptionClass.handleRequest - [Handler] Cannot process the request. Passing to next handler
+31-10-2019 21:20:54.925 [main] INFO  correctimplementation.RequestHandler.handleRequest - [Passing to next handler]
+31-10-2019 21:20:54.926 [main] INFO  c.ClassNotFoundExceptionClass.handleRequest - [Handler]Caught ClassNotFoundException
