@@ -1,0 +1,12 @@
+Hi Arvind,
+
+Thanks for your submission, here are a few comments:
+
+1. Nice implementation of verifier for the Chain of responsibility design pattern.
+2. Good documentation and comments.
+3. Good use of google's compile testing.
+
+Grade - 7% 
+
+Regards,
+Mark and Aditya
